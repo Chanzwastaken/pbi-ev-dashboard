@@ -1,45 +1,224 @@
-# Electric_Vehicle_Dashboard
+# 🚗⚡ Electric Vehicle Dashboard - Power BI Analytics
 
-## Project Overview
-This project dashboard provides a comprehensive analysis of the electric vehicle (EV) market in the United States. It covers various aspects of the EV industry, including total vehicles, average electric range, market share of battery electric vehicles (BEVs) and plug-in hybrid electric vehicles (PHEVs), and the distribution of EVs by state, make, and model.
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Data Analysis](https://img.shields.io/badge/Data%20Analysis-4285F4?style=for-the-badge&logo=google-analytics&logoColor=white)
 
-The dashboard allows users to filter the data by city, electric utility, and EV type, giving them the ability to explore the EV landscape in greater detail. The "Total Vehicles by Model Year" graph showcases the growth of the EV market over time, highlighting the increasing adoption of these vehicles. The "Total Vehicles by State" map provides a visual representation of the geographic distribution of EVs across the United States.
+> A comprehensive Power BI dashboard analyzing the electric vehicle market landscape in the United States, providing actionable insights into EV adoption trends, market distribution, and technological advancements.
 
-Additionally, the dashboard offers insights into the CAFV (Clean Alternative Fuel Vehicle) eligibility of various EV models, as well as the market share of different manufacturers. This information can be valuable for policymakers, industry stakeholders, and consumers interested in understanding the current state and trends of the EV market in the country.
+---
 
-Overall, this project dashboard serves as a comprehensive resource for analyzing and tracking the progress of the electric vehicle industry in the United States, aiding in informed decision-making and strategic planning for the future of sustainable transportation.
+## 📊 Dashboard Preview
 
-## Data Source
-Kaggle: 
-https://www.kaggle.com/datasets/willianoliveiragibin/electric-vehicle-population
+![Electric Vehicle Dashboard](Electri_Vehicle_Dashboard.png)
 
-## Tools
-- Microsoft Excel
-- Power BI Desktop
+---
 
-## PROBLEM STATEMENT
-### KPI’S Requirement
-1. Total Vehicles: Understand the overall landscape of electric vehicles, encompassing both BEVs and PHEVs, to assess the market's size and growth.
-2. Average Electric Range: Determine the average electric range of the electric vehicles in the dataset to gauge the technological advancements and efficiency of the EVs.
-3. Total BEV Vehicles and % of Total BEV Vehicles: Identify and analyze the total number of Battery Electric Vehicles (BEVs) in the dataset. Calculate the percentage of BEVs relative to the total number of electric vehicles, providing insights into the dominance of fully electric models.
-4. Total PHEV Vehicles and % of Total PHEV Vehicles: Identify and analyze the total number of Plug-in Hybrid Electric Vehicles (PHEVs) in the dataset. Calculate the percentage of PHEVs relative to the total number of electric vehicles, offering insights into the market share of plug-in hybrid models.
+## 🎯 Project Overview
 
-### Charts Requirement
-1. Total Vehicles by Model Year (From 2010 Onwards):
-Visualization: Line/ Area Chart
-Description: This chart will illustrate the distribution of electric vehicles over the years, starting from 2010, providing insights into the growth pattern and adoption trends.
-2. Total Vehicles by State:
-Visualization: Map Chart 
-Description: This chart will showcase the geographical distribution of electric vehicles across different states, allowing for the identification of regions with higher adoption rates.
-3. Top 10 Total Vehicles by Make:
-Visualization: Bar Chart 
-Description: Highlight the top 10 electric vehicle manufacturers based on the total number of vehicles, providing insights into the market dominance of specific brands.
-4. Total Vehicles by CAFV Eligibility:
-Visualization: Pie Chart or Donut Chart
-Description: Illustrate the proportion of electric vehicles that are eligible for Clean Alternative Fuel Vehicle (CAFV) incentives, aiding in understanding the impact of incentives on vehicle adoption.
-5. Top 10 Total Vehicles by Model:
-Visualization: Tree map
-Description: Highlight the top 10 electric vehicle models based on the total number of vehicles, offering insights into consumer preferences and popular models in the market.
+This interactive Power BI dashboard delivers an in-depth analysis of the **electric vehicle (EV) market** across the United States, empowering stakeholders with data-driven insights for strategic decision-making in sustainable transportation.
 
-Snapshot :
-![Screenshot 2024-06-08 224115](https://github.com/Chanzwastaken/Electric_Vehicle_Dashboard/assets/114457038/8b3d3f78-2af2-48b2-bbaf-a7ef5fc286c8)
+### ✨ Key Features
+
+- **📈 Market Analysis**: Comprehensive overview of 150,000+ electric vehicles including BEVs and PHEVs
+- **🗺️ Geographic Distribution**: Interactive state-level mapping of EV adoption rates
+- **🏭 Manufacturer Insights**: Market share analysis of leading EV brands and models
+- **⚡ Technology Trends**: Electric range analytics showcasing technological advancements
+- **🎯 CAFV Eligibility**: Clean Alternative Fuel Vehicle incentive analysis
+- **📅 Temporal Trends**: Year-over-year growth patterns from 2010 onwards
+- **🔍 Dynamic Filtering**: Interactive filters by city, electric utility, and vehicle type
+
+---
+
+## 📁 Dataset Information
+
+### 📊 Dataset Statistics
+
+| Metric | Value |
+|--------|-------|
+| **Total Records** | 150,483+ vehicles |
+| **Data Fields** | 17 columns |
+| **Geographic Coverage** | All US states |
+| **Time Period** | 2010 - Present |
+
+### 🗂️ Data Fields
+
+The dataset includes comprehensive information across the following dimensions:
+
+- **Vehicle Identification**: VIN, DOL Vehicle ID
+- **Geographic Data**: County, City, State, Postal Code, Legislative District
+- **Vehicle Specifications**: Make, Model, Model Year, Electric Vehicle Type
+- **Performance Metrics**: Electric Range, Base MSRP
+- **Regulatory Information**: CAFV Eligibility
+- **Infrastructure**: Electric Utility, Vehicle Location
+- **Census Data**: 2020 Census Tract
+
+### 🔗 Data Source
+
+**Kaggle Dataset**: [Electric Vehicle Population](https://www.kaggle.com/datasets/willianoliveiragibin/electric-vehicle-population)
+
+---
+
+## 🎯 Problem Statement & Requirements
+
+### 📊 Key Performance Indicators (KPIs)
+
+| KPI | Description | Purpose |
+|-----|-------------|---------|
+| **Total Vehicles** | Overall count of EVs (BEVs + PHEVs) | Assess market size and growth trajectory |
+| **Average Electric Range** | Mean range across all vehicles | Gauge technological advancement and efficiency |
+| **Total BEV & % Share** | Battery Electric Vehicle count and percentage | Analyze fully electric model dominance |
+| **Total PHEV & % Share** | Plug-in Hybrid count and percentage | Understand hybrid model market share |
+
+### 📈 Dashboard Visualizations
+
+#### 1️⃣ **Total Vehicles by Model Year** (2010+)
+- **Type**: Line/Area Chart
+- **Insight**: Illustrates EV market growth patterns and adoption acceleration over time
+
+#### 2️⃣ **Total Vehicles by State**
+- **Type**: Interactive Map Chart
+- **Insight**: Geographic distribution revealing regional adoption hotspots
+
+#### 3️⃣ **Top 10 Manufacturers**
+- **Type**: Bar Chart
+- **Insight**: Market dominance and competitive landscape analysis
+
+#### 4️⃣ **CAFV Eligibility Distribution**
+- **Type**: Donut Chart
+- **Insight**: Impact of government incentives on vehicle adoption
+
+#### 5️⃣ **Top 10 Vehicle Models**
+- **Type**: Tree Map
+- **Insight**: Consumer preferences and popular model identification
+
+---
+
+## 🔧 Technical Stack
+
+### Tools & Technologies
+
+| Tool | Purpose |
+|------|---------|
+| **Microsoft Excel** | Data preprocessing and cleaning |
+| **Power BI Desktop** | Dashboard development and visualization |
+| **DAX** | Calculated measures and KPIs |
+| **Power Query** | Data transformation and modeling |
+
+### Skills Demonstrated
+
+- ✅ Data Modeling & Relationships
+- ✅ DAX Calculations & Measures
+- ✅ Interactive Visualization Design
+- ✅ Geographic Data Mapping
+- ✅ Business Intelligence Reporting
+- ✅ Data Storytelling
+
+---
+
+## 💡 Key Insights
+
+The dashboard reveals critical trends in the EV market:
+
+- **📈 Exponential Growth**: Significant acceleration in EV adoption from 2010 onwards
+- **🗺️ Regional Concentration**: Certain states show substantially higher EV penetration
+- **🏭 Market Leaders**: Clear identification of dominant manufacturers and popular models
+- **⚡ Range Improvements**: Progressive increase in average electric range over time
+- **🎯 Incentive Impact**: Strong correlation between CAFV eligibility and adoption rates
+
+---
+
+## 🚀 How to Use
+
+### Prerequisites
+
+- **Power BI Desktop** (latest version recommended)
+- Download from: [Microsoft Power BI](https://powerbi.microsoft.com/desktop/)
+
+### Steps
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Chanzwastaken/pbi-ev-dashboard.git
+   ```
+
+2. **Open the Dashboard**
+   - Launch Power BI Desktop
+   - Open `Electric_Vehicle_Analysis.pbix`
+
+3. **Explore the Data**
+   - Use interactive filters to drill down by city, utility, or vehicle type
+   - Hover over visualizations for detailed tooltips
+   - Click on charts to cross-filter related data
+
+4. **Refresh Data** (Optional)
+   - Update `Electric_Vehicle_Population_Data.csv` with latest data
+   - Click "Refresh" in Power BI to update all visualizations
+
+---
+
+## 📂 Project Structure
+
+```
+pbi-ev-dashboard/
+│
+├── Electric_Vehicle_Analysis.pbix      # Power BI dashboard file
+├── Electric_Vehicle_Population_Data.csv # Source dataset (150K+ records)
+├── Electri_Vehicle_Dashboard.png       # Dashboard screenshot
+└── README.md                            # Project documentation
+```
+
+---
+
+## 🎓 Use Cases
+
+This dashboard serves multiple stakeholder needs:
+
+- **🏛️ Policymakers**: Inform EV infrastructure and incentive programs
+- **🏭 Industry Stakeholders**: Market analysis and competitive intelligence
+- **🔌 Utility Companies**: Plan charging infrastructure deployment
+- **📊 Researchers**: Study EV adoption patterns and trends
+- **🚗 Consumers**: Understand market landscape and popular models
+
+---
+
+## 📸 Dashboard Snapshot
+
+![Electric Vehicle Dashboard Analysis](https://github.com/Chanzwastaken/Electric_Vehicle_Dashboard/assets/114457038/8b3d3f78-2af2-48b2-bbaf-a7ef5fc286c8)
+
+---
+
+## 👤 Author
+
+**Chanzwastaken**
+
+- GitHub: [@Chanzwastaken](https://github.com/Chanzwastaken)
+
+---
+
+## 📄 License
+
+This project is open source and available for educational and analytical purposes.
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page or submit a pull request.
+
+---
+
+## ⭐ Acknowledgments
+
+- Dataset provided by [Kaggle](https://www.kaggle.com/datasets/willianoliveiragibin/electric-vehicle-population)
+- Built with Microsoft Power BI
+
+---
+
+<div align="center">
+
+**If you find this project useful, please consider giving it a ⭐!**
+
+*Driving insights for a sustainable future* 🌱⚡
+
+</div>
